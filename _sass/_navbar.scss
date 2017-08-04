@@ -1,0 +1,41 @@
+// navbar classes-------------->
+.navbar {
+  ul {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    li {
+      margin-left: 20px;
+      font-size: 16px;
+    }
+  }
+  &.navbar-default {
+    border: none;
+    background-color: $neutral-trans;
+  }
+}
+button.navbar-toggle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid $turquoise;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: $lightBlue;
+}
+.navbar-brand>img {
+  height: 100px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: $neutral;
+}
+// end navbar classes-------------->

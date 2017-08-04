@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/icar-white-logo.svg" alt="ICAR">
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#data">Data</a></li>
+        <li><a href="#login">Login</a></li>
+        <li class="active"><a href="#signup">Sign Up</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <header>
+          {% include carousel.html %}
+    </header>
+    <section class="" id="welcome">
+      <div class="container section-padding">
+        <article class="row">
+          <h2 class="text-center display">We Analyse and Visualize Social&nbsp;Media&nbsp;Data</h2>
+        </article>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="assets/img/welcome-graphic.png" alt="">
+          </div>
+          <div class="col-sm-8">
+            <p>Understanding the sources, patterns, and consequences of social and geographical disparities in disaster resilience is critical to building long-term resilient, healthy, and sustainable communities. Traditional resilience analysis has been confined mostly to using static data collected at scheduled intervals. With the advent of the Big Data era, real-time human response data extracted from social media could provide new opportunities for studying disparities in disaster resilience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="" id="data">
+      <div class="container section-padding">
+        <article class="row">
+          <h2 class="text-center display">Technologies</h2>
+        </article>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="assets/img/social-media.svg" alt="">
+            <h3 class="tech">High Performance Computing</h3>
+          </div>
+          <div class="col-sm-4">
+            <img src="assets/img/social-media.svg" alt="">
+            <h3 class="tech">Geographical Visualization</h3>
+          </div>
+          <div class="col-sm-4">
+            <img src="assets/img/social-media.svg" alt="">
+            <h3 class="tech">Social Media</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p class="faded">&copy; Copyright 2017 ICAR, all rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

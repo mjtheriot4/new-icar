@@ -1,0 +1,37 @@
+//COLORS
+$orange: #FA7034;
+$lightOrange: #E0C6BD;
+$neutral: #443D3B;
+$neutral-trans: rgba(68,61,59,0.5);
+$blue: #57BCF4;
+$lightBlue: #C0E1F2;
+$turquoise: #5DBDB7;
+
+body {
+  position: relative;
+  min-height: 800px;
+}
+.section-padding  {
+  padding-top: 50px;
+}
+img {
+  max-width: 100%;
+}
+
+.carousel {
+  z-index: -5;
+}
+footer {
+  background-color: $neutral;
+  p {
+    color: $lightBlue;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+}
+#welcome {
+  // background-color: $lightOrange;
+}
+#data {
+  background-color: $lightBlue;
+}

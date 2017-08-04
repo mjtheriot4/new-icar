@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700|Source+Sans+Pro:300,400');
+
+$bFont: 'Source Sans Pro', sans-serif;
+$hFont: 'Raleway', sans-serif;
+
+body {
+  font-family: $bFont;
+  font-weight: 400;
+  font-size: 2em;
+  color: $neutral;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $hFont;
+  font-weight: 300;
+}
+.display {
+  font-size: 2.3em;
+  margin-bottom: 15px;
+}
+.tech {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 0;
+  padding-top: .5em;
+  border-top: 1px solid $neutral
+}
